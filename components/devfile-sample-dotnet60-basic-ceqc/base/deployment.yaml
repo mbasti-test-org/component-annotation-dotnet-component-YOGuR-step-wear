@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-ceqc
     spec:
       containers:
-      - image: dotnet-image:latest
+      - image: quay.io/mbasti-test-org/rs-demos-vuxt-tenant/component-annotation-dotnet-component/devfile-sample-dotnet60-basic-ceqc@sha256:6f663620f9e9e2dfd4bc62d49b8ed23069890f7e1d3a2fef4c9709cf91c4dea1
         imagePullPolicy: Always
         name: main
         ports:
