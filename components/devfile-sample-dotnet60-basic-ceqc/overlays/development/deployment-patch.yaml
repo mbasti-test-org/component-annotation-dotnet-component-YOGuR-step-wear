@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-dotnet60-basic-ceqc
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/mbasti-test-org/rs-demos-vuxt-tenant/component-annotation-dotnet-component/devfile-sample-dotnet60-basic-ceqc@sha256:6f663620f9e9e2dfd4bc62d49b8ed23069890f7e1d3a2fef4c9709cf91c4dea1
+        name: main
+        resources: {}
+status: {}
